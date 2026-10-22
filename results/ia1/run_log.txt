@@ -1,0 +1,21 @@
+[    0.1s] Environment: {'python': '3.12.4', 'platform': 'Windows-11-10.0.26300-SP0', 'numpy': '2.5.3', 'pandas': '2.2.2', 'scipy': '1.18.1', 'scikit-learn': '1.8.0', 'started': '2026-10-20 13:25:35'}
+[    0.2s] Data: public=3016 private=27146 test=15060 d=87
+[    0.2s] === P1 baselines ===
+[   21.7s] --- P1 baselines done in 21.5s
+[   21.7s] saved p1_baselines.csv (18 rows)
+[   21.7s] === P2 raw-data exposure ===
+[   23.0s] --- P2 raw-data exposure done in 1.3s
+[   23.0s] saved p2_exposure.csv (5 rows)
+[   23.0s] === P3 DP-SGD (preliminary) ===
+[   48.9s] --- P3 DP-SGD (preliminary) done in 25.9s
+[   48.9s] saved p3_dpsgd.csv (18 rows)
+[   48.9s] === P4 central vs local histogram ===
+[   50.4s] --- P4 central vs local histogram done in 1.5s
+[   50.4s] saved p4_marginals.csv (420 rows)
+[   50.4s] === P5 k-anonymity (preliminary) ===
+[   54.9s] --- P5 k-anonymity (preliminary) done in 4.5s
+[   54.9s] saved p5_kanon.csv (2 rows)
+[   54.9s] === P6 PCA compression (preliminary) ===
+[   56.4s] --- P6 PCA compression (preliminary) done in 1.5s
+[   56.4s] saved p6_pca.csv (3 rows)
+[   56.4s] IA-1 run complete

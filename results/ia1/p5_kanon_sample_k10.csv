@@ -1,0 +1,9 @@
+age,workclass,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,income
+32-37,Private,11-16,"{Married-AF-spouse,Married-spouse-absent,Separated,Widowed}",Prof-specialty,Own-child,White,Female,0.0,0.0,40.0,United-States,0
+55,Private,9,Married-civ-spouse,Craft-repair,Husband,White,Male,15024.0,0.0,35.0,United-States,1
+27-37,State-gov,11-13,Never-married,Prof-specialty,Not-in-family,White,Female,0.0,0.0,40.0,United-States,0
+43-45,Private,9,Never-married,Other-service,Unmarried,White,Male,0.0,0.0,40.0,"{Poland,United-States}",0
+21-26,Self-emp-not-inc,9,Married-civ-spouse,Craft-repair,Husband,White,Male,0.0,0.0,40.0,United-States,0
+22-31,Federal-gov,11-13,Never-married,Tech-support,Own-child,White,Male,0.0,0.0,8.0,"{Japan,United-States}",0
+52-54,Self-emp-not-inc,9,Married-civ-spouse,Craft-repair,Husband,White,Male,0.0,0.0,35.0,United-States,0
+52-54,Private,10,Divorced,Adm-clerical,Unmarried,White,Female,1471.0,0.0,40.0,"{Germany,Italy,United-States}",0

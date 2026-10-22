@@ -1,0 +1,9 @@
+{
+  "python": "3.12.4",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.3",
+  "pandas": "2.2.2",
+  "scipy": "1.18.1",
+  "scikit-learn": "1.8.0",
+  "started": "2026-10-20 13:25:35"
+}

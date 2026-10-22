@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Raw UCI files are re-downloaded and hash-checked by scripts/01_prepare_data.py
+data/raw/
+
+# Not part of the public project
+archive/
+assignment_brief/
+submission/
+results/ia2_quick/
+
+# Office lock / temp files
+~$*
+*.tmp

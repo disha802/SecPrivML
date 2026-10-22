@@ -1,0 +1,26 @@
+[    0.1s] Environment: {'python': '3.12.4', 'platform': 'Windows-11-10.0.26300-SP0', 'numpy': '2.5.3', 'pandas': '2.2.2', 'scipy': '1.18.1', 'scikit-learn': '1.8.0', 'started': '2026-10-20 13:31:36'}
+[    0.2s] === E1 non-private baselines ===
+[   31.7s] --- E1 non-private baselines done in 31.5s
+[   31.7s] saved e1_baselines.csv (30 rows)
+[   31.7s] === E2 DP-SGD privacy budget sweep ===
+[  160.3s] --- E2 DP-SGD privacy budget sweep done in 128.6s
+[  160.3s] saved e2_dpsgd.csv (90 rows)
+[  160.3s] === E3 DP-SGD hyper-parameter ablation ===
+[  231.5s] --- E3 DP-SGD hyper-parameter ablation done in 71.2s
+[  231.5s] saved e3_ablation.csv (42 rows)
+[  231.5s] === E4 central vs local DP marginals ===
+[  249.0s] --- E4 central vs local DP marginals done in 17.5s
+[  249.0s] saved e4_marginals.csv (4200 rows)
+[  249.0s] === E5 training on LDP-collected data ===
+[  359.8s] --- E5 training on LDP-collected data done in 110.8s
+[  359.8s] saved e5_ldp_training.csv (48 rows)
+[  359.8s] === E6 Mondrian k-anonymity sweep ===
+[  468.2s] --- E6 Mondrian k-anonymity sweep done in 108.4s
+[  468.2s] saved e6_kanon.csv (43 rows)
+[  468.2s] === E7 compressive privacy sweep ===
+[  595.1s] --- E7 compressive privacy sweep done in 126.8s
+[  595.1s] saved e7_compressive.csv (111 rows)
+[  595.1s] === E8 hybrid compressive + DP-SGD ===
+[  787.3s] --- E8 hybrid compressive + DP-SGD done in 192.3s
+[  787.3s] saved e8_hybrid.csv (180 rows)
+[  787.3s] IA-2 run complete

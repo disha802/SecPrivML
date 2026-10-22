@@ -1,0 +1,6 @@
+analysis,unique_frac,reid_avg_risk,reid_max_risk,min_class_size,n_classes,attr_acc,attr_bal_acc,attr_prior
+reidentification (raw QIs),0.26456936565239814,0.38090326383260886,1.0,1.0,10340.0,,,
+"attribute inference, all features (lr)",,,,,,1.0,1.0,0.6737715803452855
+"attribute inference, sex column dropped (lr)",,,,,,0.8425630810092961,0.8379166071490791,0.6737715803452855
+"attribute inference, all features (gbm)",,,,,,1.0,1.0,0.6737715803452855
+"attribute inference, sex column dropped (gbm)",,,,,,0.8312749003984063,0.8133712364332246,0.6737715803452855

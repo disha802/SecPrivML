@@ -1,0 +1,97 @@
+{
+  "dataset": "Adult (Census Income)",
+  "source_url": "https://archive.ics.uci.edu/dataset/2/adult",
+  "download_url": "https://archive.ics.uci.edu/static/public/2/adult.zip",
+  "doi": "10.24432/C5XW20",
+  "creators": "Barry Becker, Ronny Kohavi (extracted from the 1994 US Census database)",
+  "publisher": "UCI Machine Learning Repository, University of California, Irvine",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "original_collection": "1994 Current Population Survey (US Census Bureau); extraction by Becker (1996) with filters AGI>100, AFNLWGT>1, AHRSWK>0",
+  "version": "UCI static release id 2 (donated 1996-04-30)",
+  "retrieved_on": "2026-10-20",
+  "retrieval_method": "HTTPS download of the official UCI archive by scripts/01_prepare_data.py (urllib)",
+  "hashes": {
+    "archive": {
+      "file": "adult.zip",
+      "sha256": "7537312dd56c2b98035880805ce99e68183a30ee468aa5329d6df0fbb3cc21bb",
+      "bytes": 620237
+    },
+    "files": {
+      "adult.data": {
+        "sha256": "5b00264637dbfec36bdeaab5676b0b309ff9eb788d63554ca0a249491c86603d",
+        "bytes": 3974305
+      },
+      "adult.test": {
+        "sha256": "a2a9044bc167a35b2361efbabec64e89d69ce82d9790d2980119aac5fd7e9c05",
+        "bytes": 2003153
+      },
+      "adult.names": {
+        "sha256": "c248284c0b5de30c9e1958d6cdd168a34a654758b620e68f46aefa83fc0a576a",
+        "bytes": 5229
+      },
+      "adult_train_clean.csv": {
+        "sha256": "094ec205f47049ee98736e66094b62b26d746246fb1aad1fbd1897aaa667633a",
+        "bytes": 3025912
+      },
+      "adult_test_clean.csv": {
+        "sha256": "0d8531d85189f76105836f7ec8647c41fc957455767805eddeb681828113563a",
+        "bytes": 1511603
+      }
+    }
+  },
+  "sizes": {
+    "original": {
+      "train_rows": 32561,
+      "test_rows": 16281,
+      "total_rows": 48842,
+      "attributes": 14,
+      "label": "income (<=50K, >50K)"
+    },
+    "final": {
+      "train_rows": 30162,
+      "test_rows": 15060,
+      "total_rows": 45222,
+      "features_used": [
+        "age",
+        "education-num",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week",
+        "workclass",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "sex",
+        "native-country"
+      ],
+      "n_features_raw": 12,
+      "n_features_encoded": 87
+    },
+    "splits": {
+      "public": 3016,
+      "private_train": 27146,
+      "test": 15060,
+      "seed": 0
+    },
+    "class_balance": {
+      "train_pos_rate": 0.2489,
+      "test_pos_rate": 0.2457
+    },
+    "sensitive_attribute": {
+      "name": "sex",
+      "train_male_rate": 0.6757
+    }
+  },
+  "preprocessing_log": [
+    "Loaded raw files: train=32561 rows, test=16281 rows, 15 columns",
+    "train: 2399 rows with missing values ('?') in {'workclass': 1836, 'occupation': 1843, 'native-country': 583}",
+    "test: 1221 rows with missing values ('?') in {'workclass': 963, 'occupation': 966, 'native-country': 274}",
+    "Dropped incomplete rows: train 32561->30162, test 16281->15060",
+    "Exact duplicate rows in train: 23 (kept: duplicates are distinct census respondents with identical attributes)",
+    "Dropped columns ['fnlwgt', 'education']; binarised target income>50K -> 1",
+    "Positive rate: train 0.2489, test 0.2457",
+    "Split official train into public=3016 / private=27146 (seed 0); official test kept as test=15060",
+    "Encoded feature dimension: 87 (5 standardised numeric + one-hot categoricals)"
+  ]
+}
