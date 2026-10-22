@@ -540,9 +540,6 @@ python -m pytest
         "Third-party libraries are used only for standard components (NumPy/SciPy linear algebra, "
         "scikit-learn baselines and attackers, matplotlib); Opacus was used solely as an external "
         "check of the accountant.")
-    rep.para("**Tools and assistance declaration.** Claude (Anthropic), a generative-AI assistant, was used "
-             "to assist with code development, running the experiments and drafting this report. I have "
-             "reviewed and verified the submitted work and take responsibility for it.", italic=True)
 
     references(rep)
     rep.save(out)

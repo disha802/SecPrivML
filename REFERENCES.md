@@ -54,4 +54,4 @@ Sources used in the PrivBench-Adult project (IA-1, IA-2 and the manuscript draft
 | [python-docx](https://python-docx.readthedocs.io/) | Generating the Word reports |
 | [pytest](https://pytest.org/) | Unit tests |
 | [Opacus 1.5.2](https://opacus.ai/) | Reference only: used to validate the RDP accountant (not a runtime dependency) |
-| Claude (Anthropic) | Generative-AI assistant used for code development, running experiments and drafting reports, as declared in the reports |
+| Claude (Anthropic) | Generative-AI assistant used for code development, running experiments and drafting reports |

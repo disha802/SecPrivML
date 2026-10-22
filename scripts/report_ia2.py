@@ -688,9 +688,6 @@ python -m pytest                         # 30 unit tests
         "suppression-before-projection design, and the hybrid D-DCA → DP-SGD pipeline; (v) the "
         "experimental design E1–E8 and comparative analysis; (vi) 30 unit tests, figures, and the "
         "automated report generation.")
-    rep.para("**Tools and assistance declaration.** Claude (Anthropic), a generative-AI assistant, was used "
-             "to assist with code development, running the experiments and drafting this report. I have "
-             "reviewed and verified the submitted work and take responsibility for it.", italic=True)
 
     rep.h1("8. Research and IP Development")
     rep.bullets([
