@@ -541,5 +541,8 @@ python -m pytest
         "scikit-learn baselines and attackers, matplotlib); Opacus was used solely as an external "
         "check of the accountant.")
 
+    rep.h1("Acknowledgement")
+    rep.para("I acknowledge the use of Claude (Anthropic), an AI assistant, for support with code development and report preparation.", size=10)
+
     references(rep)
     rep.save(out)

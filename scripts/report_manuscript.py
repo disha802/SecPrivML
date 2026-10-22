@@ -180,6 +180,9 @@ def build(out):
              "the broadest coverage. Future work: non-linear desensitisation, DP-estimated projections, LiRA "
              f"attacks and additional datasets {c(25)}.")
 
+    rep.h2("Acknowledgement")
+    rep.para("I acknowledge the use of Claude (Anthropic), an AI assistant, for support with code development and report preparation.", size=9.5)
+
     rep.h2("References")
     for i, orig in enumerate(REFS, 1):
         rep.para(f"[{i}] {REFERENCES[orig - 1]}", align="left", size=9)

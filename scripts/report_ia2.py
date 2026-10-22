@@ -704,6 +704,9 @@ python -m pytest                         # 30 unit tests
         "any novelty claim is made in a submission.",
     ])
 
+    rep.h1("Acknowledgement")
+    rep.para("I acknowledge the use of Claude (Anthropic), an AI assistant, for support with code development and report preparation.", size=10)
+
     references(rep)
 
     # ================================================================= appendices
